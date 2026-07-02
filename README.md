@@ -6,6 +6,8 @@
 
 An integration package connecting [SearchApi.io](https://www.searchapi.io) and [LangChain](https://github.com/langchain-ai/langchain).
 
+![Demo showing multi-engine search (Google, YouTube, News) and RAG retriever](assets/demo.jpg)
+
 ## Why this package?
 
 LangChain's original SearchApi integration lives in `langchain_community` (merged in 2023) but was never ported to the modern standalone package architecture. It lacks:
