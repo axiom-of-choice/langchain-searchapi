@@ -14,7 +14,7 @@ include = ["langchain_searchapi/py.typed"]
 
 [tool.mypy]
 disallow_untyped_defs = "True"
-exclude = ["demo\\.py"]
+exclude = ["examples/"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
@@ -23,7 +23,7 @@ aiohttp = ">=3.9.0"
 requests = ">=2.28.0"
 
 [tool.ruff]
-extend-exclude = ["demo.py"]
+extend-exclude = ["examples/"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "T201"]
