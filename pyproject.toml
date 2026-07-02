@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "An integration package connecting SearchApi.io and LangChain"
 authors = ["Isaac Vander <isaac.vander@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/isaacvander/langchain-searchapi"
+repository = "https://github.com/axiom-of-choice/langchain-searchapi"
 license = "MIT"
 include = ["langchain_searchapi/py.typed"]
 
